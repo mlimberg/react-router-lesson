@@ -271,7 +271,7 @@ export default class App extends Component {
 
 If you click on these links now, you should see the URL change to the routes we told each NavLink to route `to`. We can actually break this out into a component and render it using a `<Route>`. 
 
-*How might we do this so that the header persists regardless of what route we're on?* 
+**How might we do this so that the header persists regardless of what route we're on?**
 
 Next we need to define a `Home` route for when users first arrive to the app (or when the `path='/'`). For now we'll just do a basic welcome message:
 
