@@ -165,7 +165,7 @@ It can take the following attributes:
 
 ### Redirect
 
-_Rendering a <Redirect> will navigate to a new location. The new location will override the current location in the history stack, like server-side redirects (HTTP 3xx) do._
+_Rendering a `<Redirect>` will navigate to a new location. The new location will override the current location in the history stack, like server-side redirects (HTTP 3xx) do._
 
 It can take the following attributes:
 
@@ -182,7 +182,7 @@ It can take the following attributes:
 
 ### Switch
 
-_Renders the **first** child <Route> or <Redirect> that matches the location. `<Switch>` is unique in that it renders a route **exclusively**. In contrast, every <Route> that matches the location renders **inclusively**_
+_Renders the **first** child `<Route>` or `<Redirect>` that matches the location. `<Switch>` is unique in that it renders a route **exclusively**. In contrast, every `<Route>` that matches the location renders **inclusively**_
 
 ```
 <Switch>
